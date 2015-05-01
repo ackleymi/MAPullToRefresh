@@ -14,6 +14,8 @@
 		ED3F85741AF315D40077BFE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3F85731AF315D40077BFE4 /* Images.xcassets */; };
 		ED3F85771AF315D40077BFE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3F85751AF315D40077BFE4 /* LaunchScreen.xib */; };
 		ED3F85831AF315D50077BFE4 /* MAPullToRefeshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3F85821AF315D50077BFE4 /* MAPullToRefeshTests.m */; };
+		ED3F858E1AF3179A0077BFE4 /* UIScrollView+PullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3F858D1AF3179A0077BFE4 /* UIScrollView+PullToRefresh.m */; };
+		ED3F85901AF317A40077BFE4 /* pull-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3F858F1AF317A40077BFE4 /* pull-arrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		ED3F857C1AF315D50077BFE4 /* MAPullToRefeshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAPullToRefeshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3F85811AF315D50077BFE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED3F85821AF315D50077BFE4 /* MAPullToRefeshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAPullToRefeshTests.m; sourceTree = "<group>"; };
+		ED3F858C1AF3179A0077BFE4 /* UIScrollView+PullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+PullToRefresh.h"; sourceTree = "<group>"; };
+		ED3F858D1AF3179A0077BFE4 /* UIScrollView+PullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+PullToRefresh.m"; sourceTree = "<group>"; };
+		ED3F858F1AF317A40077BFE4 /* pull-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pull-arrow.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,7 @@
 			children = (
 				ED3F856A1AF315D40077BFE4 /* AppDelegate.h */,
 				ED3F856B1AF315D40077BFE4 /* AppDelegate.m */,
+				ED3F85911AF317A90077BFE4 /* MAPullToRefresh */,
 				ED3F856D1AF315D40077BFE4 /* ViewController.h */,
 				ED3F856E1AF315D40077BFE4 /* ViewController.m */,
 				ED3F85701AF315D40077BFE4 /* Main.storyboard */,
@@ -117,6 +123,16 @@
 				ED3F85811AF315D50077BFE4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED3F85911AF317A90077BFE4 /* MAPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				ED3F858C1AF3179A0077BFE4 /* UIScrollView+PullToRefresh.h */,
+				ED3F858D1AF3179A0077BFE4 /* UIScrollView+PullToRefresh.m */,
+				ED3F858F1AF317A40077BFE4 /* pull-arrow.png */,
+			);
+			name = MAPullToRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +217,7 @@
 			files = (
 				ED3F85721AF315D40077BFE4 /* Main.storyboard in Resources */,
 				ED3F85771AF315D40077BFE4 /* LaunchScreen.xib in Resources */,
+				ED3F85901AF317A40077BFE4 /* pull-arrow.png in Resources */,
 				ED3F85741AF315D40077BFE4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED3F856F1AF315D40077BFE4 /* ViewController.m in Sources */,
+				ED3F858E1AF3179A0077BFE4 /* UIScrollView+PullToRefresh.m in Sources */,
 				ED3F856C1AF315D40077BFE4 /* AppDelegate.m in Sources */,
 				ED3F85691AF315D40077BFE4 /* main.m in Sources */,
 			);
